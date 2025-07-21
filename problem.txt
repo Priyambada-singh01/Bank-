@@ -1,0 +1,42 @@
+PROBLEM TASK - PRIMARY
+Problem Description
+You are tasked with implementing two functions to apply a `10%` discount to a list of prices using two different approaches:
+
+List-based approach:
+Given a list of prices, apply a `10%` discount to each price by iterating through the list and appending the discounted prices to a new list.
+
+NumPy-based approach:
+Using a NumPy array, apply the `10%` discount to all prices at once by performing vectorized operations.
+
+You need to implement two functions that return the respective discounted prices.
+<br>
+Function Signatures:
+```
+discount_prices_list(prices_list)
+discount_prices_numpy(prices_array)
+```
+<br>
+Sample Input 1:
+```
+[100, 200, 300, 400]
+```
+Sample Output 1:
+```
+Discounted Prices (List): [90.0, 180.0, 270.0, 360.0]
+Discounted Prices (NumPy Array): [ 90.0, 180.0, 270.0, 360.0]
+```
+<br>
+Sample Input 2:
+```
+[50, 150, 250, 350]
+```
+Sample Output 2:
+```
+Discounted Prices (List): [45.0, 135.0, 225.0, 315.0]
+Discounted Prices (NumPy Array): [ 45.0, 135.0, 225.0, 315.0]
+```
+<br>
+Notes
+The List-based approach should use a loop to iterate over each element and apply the discount.
+The NumPy-based approach should apply the discount using vectorized operations for better performance.
+
